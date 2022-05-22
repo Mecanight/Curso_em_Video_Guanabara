@@ -1,3 +1,3 @@
 import math
 num = float(input('Digite um numero real'))
-print(math.floor(num))
+print(f'Esse número intrito é {math.floor(num)}')
