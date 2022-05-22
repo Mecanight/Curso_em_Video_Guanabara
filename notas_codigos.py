@@ -64,4 +64,3 @@
 # print(f'A soma é {soma}, a subtração é {subt}, o produto é {mult}, a divisão é {divi:.2f},', end = " ")
 # print(f'a divisão inteira é {divint} e a potencia é {poten}')
 
-
