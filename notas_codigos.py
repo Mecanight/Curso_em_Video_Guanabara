@@ -64,3 +64,24 @@
 # print(f'A soma é {soma}, a subtração é {subt}, o produto é {mult}, a divisão é {divi:.2f},', end = " ")
 # print(f'a divisão inteira é {divint} e a potencia é {poten}')
 
+
+#Aula 08
+
+# import math
+# num = int(input('Digite um numero'))
+# raiz = math.sqrt(num)
+# print(f'A raiz de {num} é igual a {raiz:.2f}')
+
+# from math import sqrt, floor
+# num = int(input('Digite um numero'))
+# raiz = sqrt(num)
+# print(f'A raiz de {num} é igual a {floor(raiz):.2f}')
+
+# import random
+# num = random.random()
+# print(num)
+
+import random
+num = random.randint(1, 10)
+print(num)
+
