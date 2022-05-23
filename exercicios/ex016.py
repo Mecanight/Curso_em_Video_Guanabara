@@ -1,3 +1,6 @@
-import math
+# from math import trunc
+# num = float(input('Digite um numero real '))
+# print(f'Sua porção inteira é {trunc(num)}')
+
 num = float(input('Digite um numero real'))
-print(f'Esse número intrito é {math.floor(num)}')
+print(f'Sua porção inteira é {int(num)}')
