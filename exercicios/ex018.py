@@ -1,6 +1,9 @@
-import math
-angulo = int(input('Diga o angulo'))
-seno = math.sin(angulo)
-cosseno = math.cos(angulo)
-print(f'O seno do angulo {angulo} é {seno}')
-print(f'O cosseno do angulo {angulo} é {cosseno}')
+from math import radians, sin, cos, tan
+
+angulo = float(input('Digite o angulo '))
+seno = sin(radians(angulo))
+cosseno = cos(radians(angulo))
+tangente = tan(radians(angulo))
+print(f'O seno de {angulo} é {seno:.2f}')
+print(f'O cosseno de {angulo} é {cosseno:.2f}')
+print(f'A tangente de {angulo} é {tangente:.2f}')
